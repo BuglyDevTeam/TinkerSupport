@@ -1,11 +1,10 @@
 # TinkerSupport
 
 
-将repo文件夹放到工程根目录，然后在工程根目录的build.gradle添加
+解压repo.rar，将repo文件夹放到工程根目录，然后在工程根目录的build.gradle添加
 
  maven { url uri('./repo') }
-
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+```xml
 buildscript {
     repositories {
         //这里添加本地依赖
@@ -26,5 +25,8 @@ allprojects {
         google()
     }
 }
+```
+ 
+
 
 
