@@ -1,4 +1,4 @@
-# TinkerSupport
+# TinkerSupport Gradle插件本地依赖方法
 
 
 解压repo.rar，将repo文件夹放到工程根目录，然后在工程根目录的build.gradle添加
