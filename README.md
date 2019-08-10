@@ -13,7 +13,7 @@ buildscript {
         google()
     }
     dependencies {
-        //声明需要依赖的版本
+        //声明需要依赖的版本,repo目录包括1.0.9 、 1.1.1  、  1.1.2  、 1.1.5 、  1.1.6
         classpath "com.tencent.bugly:tinker-support:1.1.6"
     }
 }
